@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+     <!-- ======================特定的View: 线======================================= -->
+    <!-- 线 灰色 水平方向  h: 1dp -->
+    <style name="line_1dp_horizontal_gray_b4">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">#B4B4B4</item>
+    </style>
+    <!-- 线 灰色 水平方向  h: 0.7dp 1080p以下显示1px,1080p的显示2px -->
+    <style name="line_0dot7dp_horizontal_gray_c8">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.7dp</item>
+        <item name="android:background">#C8C8C8</item>
+    </style>
+    <!-- 线 灰色 垂直方向  h: 0.7dp 1080p以下显示1px,1080p的显示2px -->
+    <style name="line_0dot7dp_vertical_gray_c8">
+        <item name="android:layout_width">0.7dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">#C8C8C8</item>
+    </style>
+    <!-- 线 灰色 垂直方向  h: 0.7dp 1080p以下显示1px,1080p的显示2px 带边界[即短边] -->
+    <style name="line_0dot7dp_vertical_gray_c8_with_margin" parent="line_0dot7dp_vertical_gray_c8">
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+    <!-- 线 灰色 水平方向  h: 1dp -->
+    <style name="line_1dp_horizontal_gray_c8">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">#C8C8C8</item>
+    </style>
+    <!-- 线 黑色 水平方向  h: 1dp -->
+    <style name="line_1dp_horizontal_black">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">#000000</item>
+    </style>
+    <!-- 线 灰色 垂直方向  h: 1dp -->
+    <style name="line_1dp_vertical_gray_d9">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">#D9D9D9</item>
+    </style>
+    <!-- 线 白色 垂直方向  h: 1dp -->
+    <style name="line_1dp_vertical_white">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">#ffffff</item>
+    </style>
+    <!-- 线 白色 垂直方向  h: 1dp -->
+    <style name="line_2dp_vertical_white">
+        <item name="android:layout_width">2dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">#ffffff</item>
+    </style>
+    <!-- 线 白色 垂直方向  h: 0.7dp -->
+    <style name="line_0dot7dp_vertical_white">
+        <item name="android:layout_width">0.7dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">#ffffff</item>
+    </style>
+    
+
+    <!-- 线 灰色 水平方向  h: 0.7dp 1080p以下显示1px,1080p的显示2px -->
+    <style name="line_0dot7dp_horizontal_gray_d7">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.7dp</item>
+        <item name="android:background">#d7d7d7</item>
+    </style>
+    <!-- 线 灰色 垂直方向  h: 0.7dp 1080p以下显示1px,1080p的显示2px -->
+    <style name="line_0dot7dp_vertical_gray_d7">
+        <item name="android:layout_width">0.7dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">#d7d7d7</item>
+    </style>
+    
+    
+    
+  
+    
+    
+</resources>

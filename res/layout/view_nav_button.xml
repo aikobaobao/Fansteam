@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:paddingBottom="4dp"
+    android:paddingTop="3dp" >
+
+    <ImageView
+        android:id="@+id/iv_icon_cvNavButton"
+        style="@style/iv_wrap_centerInside"
+        android:layout_marginTop="3dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+         />
+<!--         android:src="@drawable/sel_ic_home" -->
+
+    <TextView
+        android:id="@+id/tv_num_cvNavButton"
+        android:layout_alignParentTop="true"
+        style="@style/iv_wrap_centerInside"
+        android:layout_toRightOf="@id/iv_icon_cvNavButton"
+        android:visibility="gone" />
+<!--         style="@style/tv_nav_number_indicator" -->
+
+    <TextView
+        android:id="@+id/tv_text_cvNavButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/index"
+        android:textSize="@dimen/font_lv5" />
+     <!--    android:textColor="@color/sel_828282_to_main" -->
+
+</RelativeLayout>

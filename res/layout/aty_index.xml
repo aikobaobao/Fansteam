@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <FrameLayout
+            android:id="@+id/flyt_content_atyIndex"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </FrameLayout>
+        <FrameLayout
+            android:id="@+id/flyt_content2_atyIndex"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </FrameLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#FAFAFA"
+        android:orientation="horizontal" >
+
+        <com.fanspro.fansteam.view.CVNavButton
+            android:id="@+id/cv_index_atyMain"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+        </com.fanspro.fansteam.view.CVNavButton>
+
+        <com.fanspro.fansteam.view.CVNavButton
+            android:id="@+id/cv_annunciate_atyMain"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+        </com.fanspro.fansteam.view.CVNavButton>
+
+        <com.fanspro.fansteam.view.CVNavButton
+            android:id="@+id/cv_message_atyMain"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+        </com.fanspro.fansteam.view.CVNavButton>
+
+        <com.fanspro.fansteam.view.CVNavButton
+            android:id="@+id/cv_me_atyMain"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+        </com.fanspro.fansteam.view.CVNavButton>
+    </LinearLayout>
+
+</LinearLayout>

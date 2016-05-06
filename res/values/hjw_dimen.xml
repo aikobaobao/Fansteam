@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- 线的宽度 0.7dp-->
+    <dimen name="line_size_0dot7dp">0.7dp</dimen>
+    <!-- 线的宽度 1dp-->
+    <dimen name="line_size_1dp">1dp</dimen>
+    
+</resources>
